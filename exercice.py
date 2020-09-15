@@ -11,9 +11,9 @@ def is_even_len(string: str) -> bool:
 
 def remove_third_char(string: str) -> str:
     debut=string[0:2]
-    fin=string[3]
+    fin=string[3:]
 
-   return 
+   return debut + fin
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
