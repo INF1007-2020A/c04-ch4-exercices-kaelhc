@@ -6,7 +6,8 @@ def is_even_len(string: str) -> bool:
     x=True
      if (len(string)%2==0) 
 
-   return
+   return x 
+   else 
 
 
 def remove_third_char(string: str) -> str:
