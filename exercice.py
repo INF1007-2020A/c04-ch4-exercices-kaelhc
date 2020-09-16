@@ -21,11 +21,11 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
 
 
 def get_number_of_char(string: str, char: str) -> int:
-     c=0
-    for i in string :
-        if string[i]==char :
-               c+=1
-        return c 
+      c=0
+     for i in range(len(string)) :
+         if string[i]== chr :
+             c+=1
+     return c
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
